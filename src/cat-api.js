@@ -1,6 +1,6 @@
 const URL = 'https://api.thecatapi.com/v1';
 const API_KEY =
-  'live_C9iEtPg54awJpTo4QX7RoGFsgMBvEc90dWA73rvw3AuZJatT06iGrkqCDbqdNZmr';
+  'live_jXw3tBflfjXo0Z62r16zj1bSIgqmnq8vWoKt8ifUMSD29d3RhAeK94Gtxi4tQjUd';
 
 export function fetchBreeds() {
   return fetch(`${URL}/breeds?api_key=${API_KEY}`).then(response => {
